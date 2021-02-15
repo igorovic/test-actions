@@ -19,5 +19,8 @@
   "homepage": "https://github.com/igorovic/test-actions#readme",
   "dependencies": {
     "debug": "^4.2.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^10.3.1"
   }
 }
