@@ -21,6 +21,6 @@
     "debug": "^4.3.1"
   },
   "devDependencies": {
-    "npm-check-updates": "^10.3.1"
+    "npm-check-updates": "^11.1.8"
   }
 }
