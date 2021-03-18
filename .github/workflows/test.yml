@@ -1,6 +1,6 @@
 name: playing
 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 
 jobs:
     show-me-some-data:
@@ -8,4 +8,9 @@ jobs:
         steps:
             - name: echo steps
               run: echo ${{ steps }}
+            - name: printenv
+              run: printenv
+            - name: printf
+              run: printf ${{ steps }}
+              
             
