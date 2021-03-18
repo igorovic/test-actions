@@ -10,7 +10,7 @@ jobs:
               run: echo ${{ steps }}
             - name: printenv
               run: printenv
-            - name: printf
-              run: printf ${{ steps }}
+            - name: ls go
+              run: ls -alh /opt/hostedtoolcache/go/1.14.15/x64
               
             
