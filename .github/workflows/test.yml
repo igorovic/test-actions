@@ -1,0 +1,11 @@
+name: playing
+
+on: [workflow_dispatch]
+
+jobs:
+    show-me-some-data:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo steps
+            - run: echo ${{ steps }}
+            
