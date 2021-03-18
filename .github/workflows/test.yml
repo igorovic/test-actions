@@ -7,5 +7,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo steps
-            - run: echo ${{ steps }}
+              run: echo "hi"
             
